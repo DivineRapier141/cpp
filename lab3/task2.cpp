@@ -5,7 +5,6 @@ using namespace std;
 
 int main(){
     double x, epsilon;
-    const double PI = 3.1415926535;
     cout << "Enter x (x>1): ";
     cin >> x;
     cout << "Enter epsilon: ";
@@ -16,7 +15,7 @@ int main(){
         return 0;
     }
 
-    double sum = PI / 2.0;
+    double sum = M_PI / 2.0;
     double a = -1.0 / x;
     int n = 0;
     while (a > epsilon || a < -epsilon) {
