@@ -57,5 +57,6 @@ int main(){
     if (!has_even_col){
         cout << "Немає стовпчиків з парних чисел" << endl;
     }
-
+    
+    return 0;
 }
